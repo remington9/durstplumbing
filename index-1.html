@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Handyman - home improvement service</title>
+<title>about</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Your description">
@@ -12,7 +12,6 @@
 
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen">    
-<link rel="stylesheet" href="css/camera.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
 <script type="text/javascript" src="js/jquery.js"></script>  
@@ -20,67 +19,11 @@
 <script type="text/javascript" src="js/superfish.js"></script>
 
 <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
-
-<script type="text/javascript" src="js/camera.js"></script>
-<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
-
-<script type="text/javascript" src="js/jquery.caroufredsel.js"></script>
-<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
 <script>
 $(document).ready(function() {
-	// camera
-	$('#camera_wrap').camera({
-		//thumbnails: true
-		autoAdvance			: true,		
-		mobileAutoAdvance	: true,
-		//fx					: 'simpleFade',
-		height: '100%',
-		hover: false,
-		loader: 'none',
-		navigation: true,
-		navigationHover: false,
-		mobileNavHover: false,
-		playPause: false,
-		pauseOnClick: false,
-		pagination			: false,
-		time: 7000,
-		transPeriod: 1000,
-		minHeight: '200px'
-	});
+	// 
 
-	//	carouFredSel
-	$('#slider3 .carousel.main ul').carouFredSel({
-		auto: {
-			timeoutDuration: 80000					
-		},
-		responsive: true,
-		prev: '.prev3',
-		next: '.next3',
-		width: '100%',
-		scroll: {
-			items: 1,
-			duration: 1000,
-			easing: "easeOutExpo"
-		},			
-		items: {
-        	width: '500',
-			height: 'variable',	//	optionally resize item-height			  
-			visible: {
-				min: 1,
-				max: 2
-			}
-		},
-		mousewheel: false,
-		swipe: {
-			onMouse: true,
-			onTouch: true
-			}
-	});
-	$(window).bind("resize",updateSizes_vat).bind("load",updateSizes_vat);
-	function updateSizes_vat(){		
-		$('#slider3 .carousel.main ul').trigger("updateSizes");
-	}
-	updateSizes_vat();
+
 
 }); //
 $(window).load(function() {
@@ -98,7 +41,7 @@ $(window).load(function() {
 <![endif]-->
 </head>
 
-<body class="main">
+<body class="subpage">
 <div id="main">
 
 <div class="top1">
@@ -128,8 +71,9 @@ $(window).load(function() {
 		</a>
 		<div class="nav-collapse nav-collapse_ collapse">
 			<ul class="nav sf-menu clearfix">
-<li class="active"><a href="index.html">Home</a></li>
-<li><a href="index-1.html">About Us</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="index-1.html">About Us</a>
+
 <li><a href="index-2.html">Services</a></li>
 <li><a href="index-3.html">Prices</a></li>
 <li><a href="index-4.html">Testimonials</a></li>
@@ -150,117 +94,43 @@ $(window).load(function() {
 <div class="row">
 <div class="span12">
 <div class="top3_inner clearfix">
-<div class="row">
-<div class="span12">
-<div id="slider_wrapper">
-	<div id="slider" class="clearfix">
-		<img src="images/shadow1.png" alt="" class="sh1">
-		<div id="camera_wrap">
-			<div data-src="images/slide01.jpg">
-				<div class="camera_caption fadeIn">
-					<div class="txt1">Professional<br>HANDYMAN SERVICE</div>											
-				</div>     
-			</div>
-			<div data-src="images/slide02.jpg">
-				<div class="camera_caption fadeIn">
-					<div class="txt1">Decks &<br>Carpentry Service</div>											
-				</div>     
-			</div>
-			<div data-src="images/slide03.jpg">
-				<div class="camera_caption fadeIn">
-					<div class="txt1">Roofing &<br>Cleaning Service</div>											
-				</div>     
-			</div>
-			<div data-src="images/slide04.jpg">
-				<div class="camera_caption fadeIn">
-					<div class="txt1">Home  Remodeling,<br>Repair & Maintenance</div>											
-				</div>     
-			</div>			
-		</div>	
-	</div>
-</div>
-</div>	
-	
-</div>
 
-<div class="top4">
-<div class="container">
-<div class="row">
-<div class="span12">
-<div class="top4_inner clearfix">
-
-<div class="slogan1 clearfix">
-<div class="row">
-<div class="span8">
-<div class="block1">
-	<div class="txt1">Homeowners and Comercial businesses use Harold's Plumbing for<br>Home Improvements, Home Repairs, & many other plumbing needs</div>	
-</div>	
-</div>
-<div class="span4">
-<div class="block2">
-	<a href="#" class="button1">Request FREE estimate</a>
-</div>	
-</div>	
-</div>	
-</div>
-
-<div class="banners2">
-<div class="row">
-<div class="span4 banner banner1">
-<div class="banner_inner">
-<a href="/index-1.html">
-<img src="images/ic1.png" alt="" class="img">
-<div class="txt1">About Harold's Plumbing</div>
-<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet.</div>
-</a>
-</div>	
-</div>
-<div class="span4 banner banner1">
-<div class="banner_inner">
-<a href="#">
-<img src="images/ic2.png" alt="" class="img">
-<div class="txt1">Safety and Insurance</div>
-<div class="txt2">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet.</div>
-</a>
-</div>	
-</div>
-<div class="span4 banner banner1">
-<div class="banner_inner">
-<a href="#">
-<img src="images/ic3.png" alt="" class="img">
-<div class="txt1">Family owned and operated</div>
-<div class="txt2">Harold's Plumbing has proudly been a family owned and operated business since it was first started in 1982!</div>
-</a>
-</div>	
-</div>
-</div>
-	
-</div>
+<div class="breadcrumbs1"><a href="index.html">Home Page</a>&nbsp;&nbsp;&nbsp;<span>></span>&nbsp;&nbsp;&nbsp;Who We Are</div>
 
 </div>	
 </div>	
 </div>	
 </div>	
 </div>
+
+
 
 <div id="content">
 <div class="container">
 <div class="row">
 <div class="span9">
 	
-<h1 class="w1">Your Complete Plumbing Service<br><span>Here at Harold's Plumbing we take pride in everything we do!</span><b></b></h1>
+<h1 class="w1">Who We Are<b></b></h1>
+
+<p>
+	Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+<p>
+	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero. In ante velit, cursus ut, ultrices vitae, tempor ut, risus. Duis pulvinar. <a href="#">Vestibulum vel pede at sapien sodales mattis</a>. Quisque pretium, lacus nec iaculis vehicula, arcu libero consectetuer massa, auctor aliquet mauris ligula id ipsum. Vestibulum pede. Maecenas sit amet augue. Sed blandit lect
+</p>
+
+<br>
 
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class=""><img src="images/home01.jpg" alt=""></figure>
+		<figure class=""><img src="images/about01.jpg" alt=""></figure>
 		<div class="caption">
 			<p>
 				Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 			</p>
 			<p>
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero. In ante velit, cursus ut, ultrices vitae, tempor ut, risus. Duis pulvinar. <a href="#">Vestibulum vel pede at sapien sodales mattis</a>. Quisque pretium, lacus nec iaculis vehicula, arcu libero consectetuer massa, auctor aliquet mauris ligula id ipsum. Vestibulum pede. Maecenas sit amet augue. Sed blandit lect
-			</p>
-			<a href="#" class="button2">Read more</a>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero. In ante velit, cursus ut, ultrices vitae, tempor ut, risus. Duis
+			</p>			
 		</div>
 	</div>
 </div>
@@ -293,20 +163,86 @@ $(window).load(function() {
 
 </div>	
 </div>	
+<div class="row">
+<div class="span12">
+	
+<h2 class="w1">Meet Our Experts<b></b></h2>
+
+<div class="row">
+<div class="span3">
+<div class="thumb2">
+	<div class="thumbnail clearfix">
+		<a href="#">
+			<figure class=""><img src="images/about02.jpg" alt=""></figure>
+			<div class="caption">
+				<div class="txt1">Harold Durst</div>
+				<div class="txt2">President & CEO</div>
+				<div class="txt3">Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</div>
+			</div>
+		</a>
+	</div>
+</div>	
+</div>
+<div class="span3">
+<div class="thumb2">
+	<div class="thumbnail clearfix">
+		<a href="#">
+			<figure class=""><img src="images/about03.jpg" alt=""></figure>
+			<div class="caption">
+				<div class="txt1">Judith Tatar Durst</div>
+				<div class="txt2">Secretary</div>
+				<div class="txt3">Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</div>
+			</div>
+		</a>
+	</div>
+</div>	
+</div>
+<div class="span3">
+<div class="thumb2">
+	<div class="thumbnail clearfix">
+		<a href="#">
+			<figure class=""><img src="images/about04.jpg" alt=""></figure>
+			<div class="caption">
+				<div class="txt1">Armand Durst</div>
+				<div class="txt2">Plumber</div>
+				<div class="txt3">Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</div>
+			</div>
+		</a>
+	</div>
+</div>	
+</div>
+<div class="span3">
+<div class="thumb2">
+	<div class="thumbnail clearfix">
+		<a href="#">
+			<figure class=""><img src="images/about05.jpg" alt=""></figure>
+			<div class="caption">
+				<div class="txt1">Tanya Tatar</div>
+				<div class="txt2">Secretary</div>
+				<div class="txt3">Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</div>
+			</div>
+		</a>
+	</div>
+</div>	
+</div>	
+</div>	
+
+
+</div>	
+</div>
 </div>	
 </div>
 
 <div class="bot1">
-<div class="container">
-<div class="row">
-<div class="span12">
-<div class="bot1_inner clearfix"></div>	
-	
-</div>
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div class="bot1_inner clearfix">
+				</div>	
+			</div>
+		</div>	
+	</div>	
 </div>	
-</div>	
-</div>	
-</div>
 
 <div class="bot2">
 <div class="container">
@@ -334,7 +270,7 @@ $(window).load(function() {
 <div class="bot2_title">Get in Touch:</div>	
 <div class="social_wrapper">
 	<ul class="social clearfix">
-	    <li><a href="#"><img src="images/social_ic1.png"></a></li>
+	    <li><a href="https://www.facebook.com/haroldsplumbing1982" target= "blank"><img src="images/social_ic1.png"></a></li>
 	    <li><a href="#"><img src="images/social_ic2.png"></a></li>
 	    <li><a href="#"><img src="images/social_ic3.png"></a></li>
 	    <li><a href="#"><img src="images/social_ic4.png"></a></li>
