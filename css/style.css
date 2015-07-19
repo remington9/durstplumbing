@@ -10,15 +10,12 @@ a[href^="tel:"] { color: inherit; text-decoration: none;}
 ::selection{ background:#888888!important; color:#fff}
 ::-moz-selection{ background:#888888!important; color:#fff}
 
-a{ color:#ad4c22; text-decoration: underline; outline:none}
-a:hover{ color:#ad4c22; text-decoration: none; outline:none}
+a{ color:#000080; text-decoration: underline; outline:none}
+a:hover{ color:#000080; text-decoration: none; outline:none}
 
 body{ background:url(../images/water_background2.jpg) 0 0 repeat #9f8c6e; border:0; font: 13px Arial, Helvetica, sans-serif; color:#1f1812 ; line-height:20px; min-width:320px;}
 
 #main{margin: 0 auto; position: relative;}
-
-
-
 
 /* ============================= header ====================== */
 .top1{}
@@ -32,7 +29,6 @@ header{float: left; padding-top: 20px; padding-bottom: 15px;}
 
 .top2{height: 54px; padding-top: 2px; background: #000080;position: relative; z-index: 30;}
 
-.top3{background: url(../images/water_background2.jpg) 0 0 repeat; padding-top: 20px; padding-bottom: 20px;}
 
 #slider_wrapper{position: relative;}
 #slider{position: relative;}
@@ -60,14 +56,14 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 
 .top4{background: url(../images/px4.jpg) center bottom no-repeat #1f1812;}
 
-.slogan1{padding: 30px 0;}
+.slogan1{padding: 5px;}
 
 .slogan1 .block1{position: relative;}
 .slogan1 .block1 .txt1{font-family: 'Asap'; font-weight: 700; font-size: 22px; line-height: 26px; color: #e9ded0; padding-top: 12px; padding-bottom: 13px;}
 
 .slogan1 .block2{position: relative;}
 
-.button1{display: block; text-decoration: none; height: 77px;line-height: 77px; text-align: center; padding: 0 0px; background: #ad4c22; font-family: 'Asap'; font-weight: 700; font-size: 22px; color: #ffc642; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.button1{display: block; text-decoration: none; height: 77px;line-height: 77px; text-align: center; padding: 0 0px; background: #000080; font-family: 'Asap'; font-weight: 700; font-size: 22px; color: #ffc642; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
 .button1:hover{background: #d87f00; color: #fff;}
 
 .banners2{padding-top: 40px;}
@@ -75,9 +71,9 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .banners2 .banner_inner{position: relative;}
 .banners2 .banner_inner a{display: block; text-decoration: none; position: relative; text-align: center; background: #f9f4ee; border-bottom: 5px solid #d7c8b5; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding: 0 30px 30px}
 .banners2 .banner_inner a:hover{border-color: #d87f00;}
-.banners2 .banner_inner a .img{display: inline-block; background: #ad4c22; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; margin-top: -40px;}
+.banners2 .banner_inner a .img{display: inline-block; background: #000080; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; margin-top: -40px;}
 .banners2 .banner_inner a:hover .img{background: #d87f00;}
-.banners2 .banner_inner a .txt1{font-family: 'Asap'; font-weight: 700; font-style: italic; font-size: 22px; line-height: 24px; color: #ad4c22; padding-bottom: 10px; padding-top: 20px;}
+.banners2 .banner_inner a .txt1{font-family: 'Asap'; font-weight: 700; font-style: italic; font-size: 22px; line-height: 24px; color: #000080; padding-bottom: 10px; padding-top: 20px;}
 .banners2 .banner_inner a:hover .txt1{color: #d87f00;}
 .banners2 .banner_inner a .txt2{font-size: 13px; line-height: 18px; color: #7c6e62;}
 .banners2 .banner_inner a:hover .txt2{color: #1f1812;}
@@ -86,7 +82,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 
 
 /* ============================= content ====================== */
-#content{background: #B4C5E4; padding-top: 30px; padding-bottom: 30px;}
+#content{background: #B4C5E4; padding-top: 30px; padding-bottom: 30px; padding-left: 5px;}
 
 /* ============================= footer ====================== */
 .bot1{padding: 40px 0;}
@@ -113,7 +109,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .testimonial1{margin-bottom: 0px;}
 .testimonial1 .txt1{background: url(../images/testimonial1.png) 15px 15px no-repeat #2c241e; padding:20px 20px 20px 50px; line-height: 20px; font-style: italic; color: #cfbfaf; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
 .testimonial1 .txt2{padding-left: 10px; padding-top: 25px;  color: #2c241e; font-size: 14px;background: url(../images/testimonial2.png) 10px 0px no-repeat;}
-.testimonial1 .txt2 a{color: #ad4c22;}
+.testimonial1 .txt2 a{color: #000080;}
 
 .bot2{background: #3D52D5; padding-top: 30px; padding-bottom: 20px;  font-family: 'Asap';}
 
@@ -138,7 +134,7 @@ footer{padding-top: 10px;}
 
 
 /* ============================= main menu ====================== */
-.navbar_ { margin-left: auto;margin-right: auto;width: 75%; padding: 0; background: none; position: relative;z-index: 30;}
+.navbar_ { margin-left: auto;margin-right: auto;width: 65%; padding: 0; background: none; position: relative;z-index: 30;}
 .navbar_ .navbar-inner_ { padding: 0; margin: 0; border: none; min-height: inherit; background: none; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; box-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none; filter:none; }
 .navbar_ .btn-navbar { background: #3D52D5; border: none;box-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none; margin-top: 14px; margin-bottom: 13px;}
 .navbar_ .btn-navbar:hover{background: #71461f;}
@@ -201,8 +197,8 @@ h2{ font-family:'Asap'; font-weight:700; font-size:24px; color:#48413b; line-hei
 h6{ font-family:'Asap'; font-weight:400; font-size:20px; line-height: 25px; color:#48413b; padding:0px 0 10px 0; margin: 0px 0px 0px 0px;}
 
 
-h1.w1 b, h2.w1 b{width: 220px; height: 2px; background: #ad4c22; position: absolute; left: 0; bottom: 0;}
-h1.w2 b, h2.w2 b{width: 140px; height: 2px; background: #ad4c22; position: absolute; left: 0; bottom: 0;}
+h1.w1 b, h2.w1 b{width: 220px; height: 2px; background: #000080; position: absolute; left: 0; bottom: 0;}
+h1.w2 b, h2.w2 b{width: 140px; height: 2px; background: #000080; position: absolute; left: 0; bottom: 0;}
 
 
 
@@ -219,13 +215,13 @@ h1.w2 b, h2.w2 b{width: 140px; height: 2px; background: #ad4c22; position: absol
 
 /* === */
 
-.button2{display: inline-block; text-decoration: none; height: 46px;line-height: 46px; text-align: center; padding: 0 20px; background: #ad4c22; font-family: 'Asap'; font-weight: 700; font-size: 18px; color: #ffc64b; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.button2{display: inline-block; text-decoration: none; height: 46px;line-height: 46px; text-align: center; padding: 0 20px; background: #000080; font-family: 'Asap'; font-weight: 700; font-size: 18px; color: #ffc64b; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
 .button2:hover{background: #d87f00; color: #fff;}
 
 .ul1{ padding: 0; margin: 0; list-style: none;}
 .ul1 > li { padding:3px 0px 3px 20px; margin: 0px 0px 0px 0px; line-height: 20px; color: #665343;background: url(../images/li_st1.png) 0 9px no-repeat; text-transform: uppercase;}
-.ul1 > li a{color:#ad4c22; text-decoration: underline; }
-.ul1 > li a:hover{color:#ad4c22; text-decoration: none; }
+.ul1 > li a{color:#000080; text-decoration: underline; }
+.ul1 > li a:hover{color:#000080; text-decoration: none; }
 .ul1 > li p{text-transform: none;}
 .ul1 > li p a{text-transform: uppercase;}
 
@@ -240,7 +236,7 @@ h1.w2 b, h2.w2 b{width: 140px; height: 2px; background: #ad4c22; position: absol
 .ul2{ padding: 0; margin: 0; list-style: none;}
 .ul2 > li { padding:0; margin: 0px 0px 4px 0px;}
 .ul2 > li .txt1{vertical-align: top; display: block; float: none; margin-right: 64px; line-height: 20px; color: #1f1812; background: #ded1c1;padding:7px 10px 7px 15px;}
-.ul2 > li .txt2{vertical-align: top; display: block; float: right;overflow: hidden;  width: 60px; text-align: center; line-height: 20px; font-size: 15px; font-weight: 700; color: #ad4c22; background: #ded1c1; padding: 7px 0;}
+.ul2 > li .txt2{vertical-align: top; display: block; float: right;overflow: hidden;  width: 60px; text-align: center; line-height: 20px; font-size: 15px; font-weight: 700; color: #000080; background: #ded1c1; padding: 7px 0;}
 
 .testimonial_title{font-family: 'Asap'; font-weight: 700; font-size: 24px; line-height: 26px; text-transform: uppercase; color: #534238; padding-bottom: 15px;}
 
@@ -271,13 +267,13 @@ h1.w2 b, h2.w2 b{width: 140px; height: 2px; background: #ad4c22; position: absol
 .thumb2 .thumbnail a figure{margin: 0; float: none; margin:0px 0px 20px 0px; }
 .thumb2 .thumbnail a figure img{width: 100%;border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0;}
 .thumb2 .thumbnail a .caption{ text-align: center;padding: 0 25px 20px;}
-.thumb2 .thumbnail a .caption .txt1{font-family: 'Asap'; font-size: 22px; line-height: 26px; font-weight: 700; font-style: italic; color: #ad4c22; padding-bottom: 5px;}
+.thumb2 .thumbnail a .caption .txt1{font-family: 'Asap'; font-size: 22px; line-height: 26px; font-weight: 700; font-style: italic; color: #000080; padding-bottom: 5px;}
 .thumb2 .thumbnail a:hover .caption .txt1{color: #d87f00;}
-.thumb2 .thumbnail a .caption .txt2{font-size: 13px; line-height: 20px; color: #ad4c22; padding-bottom: 5px;}
+.thumb2 .thumbnail a .caption .txt2{font-size: 13px; line-height: 20px; color: #000080; padding-bottom: 5px;}
 .thumb2 .thumbnail a:hover .caption .txt2{color: #d87f00;}
 .thumb2 .thumbnail a .caption .txt3{color: #7c6e62; padding-bottom: 15px;}
 .thumb2 .thumbnail a:hover .caption .txt3{color: #1f1812;}
-.thumb2 .thumbnail a .caption .txt4{display: inline-block; background: #ad4c22; font-family: 'Asap'; font-size: 14px; font-weight: 700; color: #ffc64b; padding: 8px 20px;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.thumb2 .thumbnail a .caption .txt4{display: inline-block; background: #000080; font-family: 'Asap'; font-size: 14px; font-weight: 700; color: #ffc64b; padding: 8px 20px;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
 .thumb2 .thumbnail a:hover .caption .txt4{color: #fff; background: #d87f00;}
 
 
@@ -338,7 +334,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 #ajax-contact-form .control-group.capthca{margin-bottom: 0px;}
 #ajax-contact-form .capthca input{width: 156px; float: left; margin-right: 30px;margin-bottom: 10px;}
 #ajax-contact-form img{float:left; width:170px; height:42px;margin-bottom: 10px;}
-#ajax-contact-form .submit{display:inline-block; line-height:46px;  text-decoration: none; margin-top:10px; margin-bottom:10px; font-size:18px; font-family:'Asap'; font-weight: 700; color:#ffc64b; white-space:nowrap; letter-spacing:0px; background:#ad4c22; padding:0 20px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; text-transform: uppercase; border: 0;
+#ajax-contact-form .submit{display:inline-block; line-height:46px;  text-decoration: none; margin-top:10px; margin-bottom:10px; font-size:18px; font-family:'Asap'; font-weight: 700; color:#ffc64b; white-space:nowrap; letter-spacing:0px; background:#000080; padding:0 20px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; text-transform: uppercase; border: 0;
 transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
 }
 #ajax-contact-form .submit:hover{background: #d87f00; color: #fff;}
