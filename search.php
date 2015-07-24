@@ -51,7 +51,7 @@ $(window).load(function() {
 <div class="row">
 <div class="span12">
 <div class="top1_inner clearfix">
-<header><div class="logo_wrapper"><a href="index.html" class="logo"><img src="images/logo.png" alt=""></a></div></header>	
+<header><div class="logo_wrapper"><a href="index.html" class="logo"><img src="images/logo_trans2.png" alt=""></a></div></header>	
 <div class="phone1"><div class="txt1">Call: <span> 1 800 123 4567</span></div><div class="over1"></div></div>
 </div>	
 </div>	
@@ -209,7 +209,7 @@ $(window).load(function() {
 <div class="row">
 <div class="span3">
 <footer>
-<div class="logo2_wrapper"><a href="index.html" class="logo2"><img src="images/logo2.png" alt=""></a></div>	
+<div class="logo2_wrapper"><a href="index.html" class="logo2"><img src="images/logo_trans2.png" alt=""></a></div>	
 <div class="copyright">Copyright   © 2013. All rights reserved. Handyman Service.</div>
 <div class="copyright2"><a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a></div>
 

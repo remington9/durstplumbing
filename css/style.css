@@ -23,7 +23,7 @@ body{ background:url(../images/water_background2.jpg) 0 0 repeat #9f8c6e; border
 header{float: left; padding-top: 20px; padding-bottom: 15px;}
 
 .phone1{float: right; position: relative; display: inline-block; padding-top: 15px; margin-bottom: 10px; }
-.phone1 .txt1{background: white; line-height: 20px; color: #fe0000; font-family: 'Asap'; font-weight: 700; font-style: italic; font-size: 20px; padding: 20px;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.phone1 .txt1{background: #B4C5E4; line-height: 20px; color: #fe0000; font-family: 'Asap'; font-weight: 700; font-style: italic; font-size: 20px; padding: 20px;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
 .phone1 .txt1 span{font-size: 30px;}
 .phone1 .over1{position: absolute; left: 10px; right: 3px; bottom: -11px; height: 11px;}
 
@@ -134,7 +134,7 @@ footer{padding-top: 10px;}
 
 
 /* ============================= main menu ====================== */
-.navbar_ { margin-left: auto;margin-right: auto;width: 65%; padding: 0; background: none; position: relative;z-index: 30;}
+.navbar_ { margin-left: auto;margin-right: auto;width: 80%; padding: 0; background: none; position: relative;z-index: 30;}
 .navbar_ .navbar-inner_ { padding: 0; margin: 0; border: none; min-height: inherit; background: none; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; box-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none; filter:none; }
 .navbar_ .btn-navbar { background: #3D52D5; border: none;box-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none; margin-top: 14px; margin-bottom: 13px;}
 .navbar_ .btn-navbar:hover{background: #71461f;}

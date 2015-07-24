@@ -62,7 +62,7 @@ $error .= "Incorect captcha.<br />";
 if(!$error)
 {
 
-	$mail = mail(WEBMASTER_EMAIL, $subject, $message,
+	$mail = mail(WEBMASTER_EMAIL, 'New website inquiry', $message,
      "From: ".$name." <".$email.">\r\n"
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
